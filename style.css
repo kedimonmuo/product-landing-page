@@ -1,0 +1,157 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+ * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+    } 
+
+  html { 
+    font-family: 'Playfair Display', serif;
+    background-image: 
+    url("https://www.tucantex.com/wp-content/uploads/2020/04/Spa_Header_Sectores_Tucantex-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+    overscroll-behavior: smooth;
+  }   
+  
+   #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin: 0px 30px;
+    padding-right: 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: #639B95;
+    font-size: 20px;
+    font-weight: 100;
+    
+  }
+    
+    div #header-img {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 20px;
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+    position: relative;    
+      
+  }
+  
+  #nav-bar{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-items: space-between;
+     position:relative;
+     list-style: none;
+        
+  }
+
+   .nav-link{
+     display: flex;
+     align-items: space-around;
+     padding-top: 1px;
+     padding-right: 2em;
+     padding-left: 9em;
+     padding-bottom:2em;
+     font-size: 18px;
+     color: #eee;
+     column-gap: 1em;
+     list-style: none;
+     float: right;
+        
+    }
+  
+    .nav-link a{
+     display: flex;
+     justify-content: right;   
+     text-decoration-line: none; 
+     color: #4E435F;
+     font-family: "Playfair Display", serif;
+     font-weight: 600;
+     list-style: none;
+       
+  }
+  
+  @media (max-width: 650px) {
+     .nav-bar {
+       font-family: 'Playfair Display', serif;
+         
+    } 
+  }
+  
+    .nav-link :hover{
+     background-color: whitesmoke;
+     transition: ease-in 0.6s;
+    
+  }
+      .pretext{
+      display:flex;
+      text-align:center;
+      justify-content:center;
+      margin-top: 10px;
+      margin-bottom: 1px;
+    
+    }
+  
+     container .video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+      container > iframe {
+      display:flex;
+      justify-content:center;
+      align-self: center;
+      max-width: 460px;
+      width: 100%;
+    }
+  
+      .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 200px;
+      margin-top: 3px;
+        
+    }
+    
+     .main > p {
+      
+      margin-bottom: 5px;
+      word-wrap: break-word;
+      
+    }
+    
+    .main input[type="email"] {
+     width: 200px;
+     border-width:2px; 
+     padding: 8px;
+    }
+  
+    .main input[class="btn"] {
+      font-family: Helvetica 20px;
+      width: 80px;
+      border: solid;
+      border-width: thin;
+      background-color: #DBDBDB;
+    }
+    
+    .main input[type='submit']:hover {
+     background-color: pink;
+     transition: background-color 1s;
+         
+    }
+      
